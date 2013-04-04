@@ -423,7 +423,9 @@
 	.icon-tile:before   		{ content: '\E129'; }
 	.icon-user:before			{ content: '\E137'; }
     .icon-github:before         { content: '\E057'; }
-		
+	.icon-music:before          { content: '\E094'; }
+    .icon-steam:before          { content: '\E054'; }
+                                                     	
 /*********************************************************************************/
 /* Nav                                                                           */
 /*********************************************************************************/
