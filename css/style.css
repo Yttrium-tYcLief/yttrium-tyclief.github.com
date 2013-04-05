@@ -425,6 +425,8 @@
     .icon-github:before         { content: '\E057'; }
 	.icon-music:before          { content: '\E094'; }
     .icon-steam:before          { content: '\E054'; }
+    .icon-email:before          { content: '\E08a'; }
+    .icon-gallery:before        { content: '\E074'; }
                                                      	
 /*********************************************************************************/
 /* Nav                                                                           */
