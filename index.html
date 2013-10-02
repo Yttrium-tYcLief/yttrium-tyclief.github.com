@@ -84,6 +84,7 @@
 								</section>
 							</article>
                             <article id="nowplaying" class="panel">
+                                
                                 <script>
                                     $(document).ready(function () {
                                         $('div#lastfm').lastFM({
@@ -97,15 +98,19 @@
                                     });
                                 </script>
 
-                                <div id="lastfm" style="height:295px">
+                                <div style="height:295px">
+                                <div id="lastfm" style="height:295px;">
 	                                <dl>
-		                                <dt style="position:relative; left:15px;" class="lfm_art"><a href="#"><img src="" alt="" class="lfm_overlay" /></a></dt>
+		                                <dt style="position:relative; left:15px; z-index:1;" class="lfm_art"><a href="#"><img src="" alt="" class="lfm_overlay" /></a></dt>
                                         <p style="font-family:'Open Sans', sans-serif; font-size:14pt; position:relative; top:-280px; right:-375px;">np:</p>
 		                                <dd style="font-family:'Open Sans', sans-serif; font-size:30pt; position:relative; top:-300px; right:-375px;" class="lfm_artist"></dd>
 		                                <dd style="font-family:'Open Sans', sans-serif; font-size:14pt; position:relative; top:-305px; right:-375px;" class="lfm_album"></dd>
 	    	                            <dd style="font-family:'Open Sans', sans-serif; font-size:36pt; position:relative; top:-275px; right:-370px; color:#009966;" class="lfm_song"></dd>
 	                                </dl>
-                                </div>
+
+                                </div><span style="font-family:'Open Sans', sans-serif; font-size:14pt; position:relative; top:-170px; right:-150px; z-index:0;">Nothing playing</span>
+                                    </div>
+                                
                             </article>
 		
 				<!-- Footer -->
