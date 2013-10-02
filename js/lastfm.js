@@ -31,9 +31,9 @@
 		
 		if(settings.artSize == 'small'){imgSize = 0}
 		if(settings.artSize == 'medium'){imgSize = 1}
-		if(settings.artSize == 'large') { imgSize = 2 }
-		if(settings.artSize == 'extralarge') { imgSize = 3 }
-		if(settings.artSize == 'mega') { imgSize = 4 }
+		if(settings.artSize == 'large'){imgSize = 2}
+		if(settings.artSize == 'extralarge'){imgSize = 3}
+		if(settings.artSize == 'mega'){imgSize = 4}
 
 		this.each(function() {
 			
